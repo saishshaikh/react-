@@ -1,14 +1,11 @@
 import './App.css'
-import ProductTab from "./ProductTab.jsx"
+import Button from "./Button.jsx"
+import Form from "./Form.jsx";
 
 function App() {
-  let color= {
-    color : "green"
-  }
   return (
-   <div>
-    <h1 style= {color} >BLOCKBASTERS DEALS SHOP NOW!!?</h1>
-      <ProductTab />
+    <div>
+      <Form />
     </div>
   )
 }
