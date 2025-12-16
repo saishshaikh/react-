@@ -1,13 +1,15 @@
 import './App.css'
 import ProductTab from "./ProductTab.jsx"
-import MsgBox from './MsgBox.jsx'
 
 function App() {
+  let color= {
+    color : "green"
+  }
   return (
-    <>
-      <MsgBox userName="saish shaikh" textColor="yellow" />
+   <div>
+    <h1 style= {color} >BLOCKBASTERS DEALS SHOP NOW!!?</h1>
       <ProductTab />
-    </>
+    </div>
   )
 }
 
