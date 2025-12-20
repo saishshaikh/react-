@@ -1,23 +1,23 @@
-// import { useState } from "react";
+import { useState } from "react";
 
-// function Counter () {
-// //    let [stateVariable,setStateVariable]= useState (10);  
-//    let [count,setCount] = useState(0)
+function Counter () {
+//    let [stateVariable,setStateVariable]= useState (10);  
+   let [count,setCount] = useState(0)
 
-//    let intCount =() =>{
-//     setCount (count+1);
-//     // console.log (count)
-//    }
+   let intCount =() =>{
+    setCount (count+1);
+   
+   }
 
     
-//     return (
-//         <div>
-//              <h3>count = {count}</h3>
-//             <button onClick={intCount}>
-//                 INCREASE COUNT
-//             </button>
-//         </div>
+    return (
+        <div>
+             <h3>count = {count}</h3>
+            <button onClick={intCount}>
+                INCREASE COUNT
+            </button>
+        </div>
 
-//     )
-// }
-// export default Counter ;
+    )
+}
+export default Counter ;

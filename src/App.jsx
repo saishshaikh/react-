@@ -2,16 +2,16 @@
 import './App.css'
 // import Counter from './Counter'
 import LikeButton from './LikeButton'
+import LudoGame from './LudoGame';
 
 function App() {
-  
+ 
 
   return (
-  
+      
       <div>
-        <h1>INTER YOUR COUNTS</h1>
-        <LikeButton/>
-        
+         <p>LET'S PLAY NOW THE GAME !!!</p>
+        <LudoGame/>
       </div>
      
   )
